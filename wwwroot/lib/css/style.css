@@ -1,8 +1,78 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(/lib/cdn-root/static-files/fonts/Poppins-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(/lib/cdn-root/static-files/fonts/Poppins-Medium.ttf) format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(/lib/cdn-root/static-files/fonts/Poppins-SemiBold.ttf) format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(/lib/cdn-root/static-files/fonts/Poppins-ExtraBold.ttf) format("truetype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #0b0f11;
+}
+  
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #5600b8;
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: white;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: #5600b8;
+    border-radius: 5px;
+}
+  
+::selection {
+    color: white;
+    background: #5600b8;
+    border-radius: 5px;
+}
+
 body{
     background-color: #0b0f11;
-    color: white;
-    font-family: system-ui;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
     user-select: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
 }
 .container{
     margin: auto;
@@ -18,7 +88,7 @@ a{
     color: #5600b8;
 }
 a.dl-link{
-    font-size: 2vw;
+    font-size: 16px;
 }
 a.dl-link:hover{
     font-weight: bold;
