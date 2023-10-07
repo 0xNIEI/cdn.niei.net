@@ -5,7 +5,7 @@ services:
     image: nginx:latest
     network_mode: bridge
     ports:
-      - 1013:80
+      - 1011:80
     volumes:
       - ./wwwroot:/usr/share/nginx/html:ro
       - ./config/nginx.conf:/etc/nginx/nginx.conf:ro
