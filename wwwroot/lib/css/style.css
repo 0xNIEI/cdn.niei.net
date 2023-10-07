@@ -1,0 +1,27 @@
+body{
+    background-color: #0b0f11;
+    color: white;
+    font-family: system-ui;
+    user-select: none;
+}
+.container{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+h1{
+    font-size: 65px;
+}
+a{
+    text-decoration: none;
+    color: #5600b8;
+    font-size: 7vw;
+}
+a:hover{
+    font-weight: bold;
+    transition-duration: 0.75s;
+}
+li{
+    list-style-type: none;
+}
