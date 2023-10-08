@@ -85,6 +85,10 @@ ul {
     padding: 1rem;
 }
 
+a{
+    text-decoration: none;
+}
+
 .fancy-link{
     text-decoration: none;
     color: aliceblue;
