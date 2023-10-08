@@ -5,6 +5,7 @@ services:
     image: nginx:latest
     network_mode: bridge
     container_name: cdn.niei.net
+    restart: always
     ports:
       - 1011:80
     volumes:
